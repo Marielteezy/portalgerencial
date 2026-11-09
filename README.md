@@ -1,7 +1,7 @@
 # Portal Gerencial · desarrolladora
 
 Reemplazo de DDP Analytics (Lovable). Mismo login y diseño que Portal Comercial, datos en el Supabase **DDP-Analytics**
-(`ejcnxvkmnqihyizdafqg`). Sitio estático publicado en Netlify (carpeta `dist/`).
+(`ejcnxvkmnqihyizdafqg`). Sitio estático publicado en https://portalgerencial.netlify.app (Netlify publica `dist/` en cada push a `main`).
 
 - `src/` código fuente (app.js, data.js, style.css, vendor/supabase.js)
 - `python3 build.py` genera `dist/` (producción) y `preview/` (datos de ejemplo, sin conexión)
