@@ -5,7 +5,7 @@ import { createClient } from "jsr:@supabase/supabase-js@2.49.4";
 const URL_ = Deno.env.get("SUPABASE_URL")!;
 const ANON = Deno.env.get("SUPABASE_ANON_KEY")!;
 const SERVICE = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
-const ORIGEN_PRINCIPAL = Deno.env.get("PORTAL_ORIGEN") || "https://portal-gerencial.netlify.app";
+const ORIGEN_PRINCIPAL = Deno.env.get("PORTAL_ORIGEN") || "https://portalgerencial.netlify.app";
 const SECCIONES = ["ejecutivo", "alertas", "ventas", "lista", "precios", "metas", "simulador", "ejecutivos",
   "funnel", "leads", "gastos-mkt", "financiamiento", "cobranzas", "devoluciones",
   "perfil-cliente", "atencion", "contact-center", "postventa"];
